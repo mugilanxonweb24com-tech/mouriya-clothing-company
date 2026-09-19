@@ -1,0 +1,58 @@
+export const siteConfig = {
+  name: "Mouriya Clothing",
+  description: "Premium apparel manufacturing and export foundation.",
+  navigation: [
+    { label: "Home", href: "#hero" },
+    { label: "About", href: "#about" },
+    { label: "Infrastructure", href: "#factory" },
+    { label: "Products", href: "#products" },
+    { label: "Quality", href: "#quality" },
+    { label: "Sustainability", href: "#sustainability" },
+    { label: "Contact", href: "#contact" },
+  ],
+  factoryStats: [
+    { value: 28, suffix: "+", label: "Years of Experience" },
+    { value: 100, suffix: "+", label: "Sewing Machines" },
+    { value: 50000, suffix: "+", label: "Garments Per Month" },
+    { value: 5000, suffix: "+", label: "Sq. Ft. Factory Area" },
+  ],
+  manufacturingStages: [
+    { id: "thread", index: "01", title: "Raw Thread", shortTitle: "Thread", description: "The material journey begins with yarn prepared for fabric production." },
+    { id: "knitting", index: "02", title: "Knitting", shortTitle: "Knitting", description: "Yarn is formed into knitted fabric through controlled production." },
+    { id: "dyeing", index: "03", title: "Soft Flow Dyeing", shortTitle: "Dyeing", description: "Fabric moves through the dyeing stage to achieve the required colour." },
+    { id: "compacting", index: "04", title: "Compacting", shortTitle: "Compacting", description: "Fabric is stabilized and finished through controlled compacting." },
+    { id: "printing", index: "05", title: "Printing", shortTitle: "Printing", description: "Graphics and surface details are applied to prepared fabric or garments." },
+    { id: "embroidery", index: "06", title: "Embroidery", shortTitle: "Embroidery", description: "Threaded detailing adds durable branded or decorative elements." },
+    { id: "finished", index: "07", title: "Finished Garment", shortTitle: "Garment", description: "The production journey resolves into a finished apparel product." },
+  ],
+  productCategories: [
+    { id: "tshirts", index: "01", name: "T-Shirts", description: "Everyday apparel shaped through a considered production journey.", assetKey: "tshirt" },
+    { id: "polo", index: "02", name: "Polo Shirts", description: "A refined staple category for considered apparel collections.", assetKey: "polo" },
+    { id: "hoodie", index: "03", name: "Sweatshirts / Hoodies", description: "Layered silhouettes with a quiet, practical presence.", assetKey: "hoodie" },
+    { id: "sportswear", index: "04", name: "Sportswear", description: "Performance-led forms for movement and everyday wear.", assetKey: "sportswear" },
+  ],
+  uniformCategories: [
+    { id: "corporate", index: "01", name: "Corporate Uniforms", purpose: "Identity", description: "Professional apparel designed for consistent organizational identity.", assetKey: "corporate" },
+    { id: "sports", index: "02", name: "Sports Uniforms", purpose: "Performance", description: "Performance-oriented apparel for teams, institutions and active environments.", assetKey: "sports" },
+    { id: "school", index: "03", name: "School & College", purpose: "Consistency", description: "Uniform apparel developed for institutional requirements and everyday use.", assetKey: "school" },
+    { id: "workwear", index: "04", name: "Security / Workwear", purpose: "Function", description: "Functional uniform apparel for professional and operational environments.", assetKey: "workwear" },
+  ],
+  qualityCheckpoints: [
+    { id: "material", index: "01", title: "Material Check", description: "Fabric and incoming material are reviewed before further production." },
+    { id: "process", index: "02", title: "Process Control", description: "Key production stages are monitored for consistency." },
+    { id: "finishing", index: "03", title: "Finishing Review", description: "Garments are checked through finishing and presentation stages." },
+    { id: "final", index: "04", title: "Final Inspection", description: "Finished apparel is reviewed before packing and dispatch." },
+  ],
+  responsibilityThemes: [
+    { id: "resources", index: "01", title: "Resource Awareness", description: "A focus on thoughtful use of materials, energy and production resources." },
+    { id: "production", index: "02", title: "Responsible Production", description: "Manufacturing practices designed around consistency, care and process discipline." },
+    { id: "people", index: "03", title: "People & Workplace", description: "Recognition of the role people, skills and working environments play in responsible manufacturing." },
+    { id: "impact", index: "04", title: "Long-Term Impact", description: "A commitment to improving practices as the business and industry continue to evolve." },
+  ],
+  globalReachStages: [
+    { id: "origin", index: "01", label: "Origin" },
+    { id: "route", index: "02", label: "Route" },
+    { id: "movement", index: "03", label: "Movement" },
+    { id: "reach", index: "04", label: "Reach" },
+  ],
+} as const;
